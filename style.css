@@ -1,0 +1,117 @@
+body{
+    margin: 20px;
+}
+
+/* Header section */
+#logo{
+    display: block;
+   
+}
+li{
+    display: inline;
+    text-align: right;
+}
+li>a{    
+    padding: 4px;
+    font-size: large;
+    text-decoration: none;
+    color: white;
+}
+#header{
+    background-color: rgb(22, 22, 26);
+    color: white;
+    display: flex;
+}
+#ul1{
+    padding-left: 800px;
+}
+
+/* Main Section */
+#main{
+    text-align: center;
+    /* border: 1px solid white; */
+    background-color: rgb(21, 109, 181);
+    padding: 100px 100px 80px 100px;
+    height: 300px;
+}
+#btn>input{
+    border: 1px solid black;
+    background-color:white;
+    color: black;
+    margin-left: auto;
+    margin-right: auto;
+}
+#btn>input:hover{
+    background-color: black;
+    cursor: pointer;
+    color: white;
+    display: block;
+}
+
+/* Feature Section */
+
+#f1{
+    background-color: #d5deeafc;
+    display: block;
+    margin: 10px;
+    /* display: flex; */
+    text-align: center;
+    width: 200px;
+    height: 180px;
+}
+#f2{
+    background-color: #d5deeafc;
+    display: block;
+    margin: 10px;
+    /* display: flex; */
+    text-align: center;
+    width: 200px;
+    height: 180px;
+    /* margin-top: 200px; */
+    margin-left: auto;
+    margin-right: auto;
+}
+#f3{
+    background-color: #d5deeafc;
+    display: block;
+    margin-top: 10px;
+    margin-left: 200px;
+    /* display: flex; */
+    text-align: center;
+    width: 200px;
+    height: 180px;
+}
+/* #features{
+    display: flex;
+    margin-left: 200px;
+} */
+#flex{
+    display: flex;
+    margin-left: 300px;
+    /* margin-left: auto;
+    margin-right: auto; */
+}
+
+/* About Section */
+#about{
+    background-color: #d5deeafc;
+    /* border: 1px solid #d5deeafc; */
+    padding-top: 200px;
+    text-align: center;
+    /* width: 800px; */
+    height: 400px;
+}
+
+/* Contact section */
+#contact{
+    text-align: center;
+}
+#btn2{
+    background-color: white;
+    color: black;
+    padding-top: 10px;
+}
+#btn2>input:hover{
+    background-color: black;
+    color: white;
+}
